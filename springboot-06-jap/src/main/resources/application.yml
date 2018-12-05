@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://172.16.80.34:3307/jpa?useUnicode=true&characterEncoding=UTF8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+  jpa:
+    hibernate:
+# 更新数据表结构
+      ddl-auto: update
+      show-sql: true
