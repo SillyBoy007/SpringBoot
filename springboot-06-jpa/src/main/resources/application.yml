@@ -10,4 +10,5 @@ spring:
     hibernate:
 # 更新数据表结构
       ddl-auto: update
-      show-sql: true
+    show-sql: true
+    open-in-view: true
